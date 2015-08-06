@@ -101,6 +101,8 @@ Mas información:
             sudo pip-3.2 install tornado RPi.GPIO
 
     e.  imports
+        from time import sleep
+        sleep(3)
 
 16. Armar circuito
 
@@ -126,11 +128,6 @@ Mas información:
 
     for i in range(5):
         print('hola')
-
-20. sleep
-
-    from time import sleep
-    sleep(3)
 
 21. if, for, sleep
 
