@@ -1,6 +1,7 @@
 from time import sleep
 from RPi import GPIO
 
+
 def blink(veces, tiempo):
     encendido = False
 
